@@ -6,7 +6,7 @@
 # catalog-version 1.1
 Name:		texlive-ptext
 Version:	1.1
-Release:	8
+Release:	9
 Summary:	A 'lipsum' for Persian
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/xetex/latex/ptext
