@@ -1,18 +1,12 @@
-# revision 30171
-# category Package
-# catalog-ctan /macros/xetex/latex/ptext
-# catalog-date 2013-04-29 15:26:25 +0200
-# catalog-license lppl1.2
-# catalog-version 1.1
 Name:		texlive-ptext
-Version:	1.1
-Release:	10
+Version:	30171
+Release:	1
 Summary:	A 'lipsum' for Persian
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/xetex/latex/ptext
 License:	LPPL1.2
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ptext.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ptext.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ptext.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ptext.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -25,12 +19,12 @@ language. The source of the filling text is the Persian epic
 be run under XeLaTeX.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -41,7 +35,7 @@ be run under XeLaTeX.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
