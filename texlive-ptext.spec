@@ -1,6 +1,6 @@
 Name:		texlive-ptext
 Version:	30171
-Release:	1
+Release:	2
 Summary:	A 'lipsum' for Persian
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/xetex/latex/ptext
