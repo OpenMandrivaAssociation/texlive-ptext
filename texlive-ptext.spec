@@ -3,7 +3,7 @@ Version:	30171
 Release:	2
 Summary:	A 'lipsum' for Persian
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/xetex/latex/ptext
+URL:		https://www.ctan.org/tex-archive/macros/xetex/latex/ptext
 License:	LPPL1.2
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ptext.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ptext.doc.r%{version}.tar.xz
